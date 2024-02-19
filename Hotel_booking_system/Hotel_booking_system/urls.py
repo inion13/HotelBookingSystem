@@ -12,4 +12,3 @@ urlpatterns = [
     path('verify/', TokenVerifyView.as_view(), name='verify'),
     path('register/', CreateUserView.as_view(), name='register'),
 ]
-
